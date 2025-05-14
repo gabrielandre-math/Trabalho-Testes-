@@ -14,7 +14,6 @@ public class TicketCalculatorTest {
         assertEquals(10 * 1, TicketCalculator.totalPrice(12, 1));
         assertEquals(10 * 5, TicketCalculator.totalPrice(0, 5));
     }
-
     @Test
     public void adultPriceAndTotals() {
         assertEquals(30, TicketCalculator.priceByAge(13));
