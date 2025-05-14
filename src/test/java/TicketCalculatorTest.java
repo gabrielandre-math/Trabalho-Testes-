@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
 public class TicketCalculatorTest {
-
     @Test
     public void childPriceAndTotals() {
         Assert.assertEquals(10, TicketCalculator.priceByAge(0));
